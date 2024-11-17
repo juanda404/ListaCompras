@@ -1,12 +1,19 @@
+import React from 'react';
 import './TodoCounter.css';
+import { ListContext } from '../ListContext';
 
-function TodoCounter({total, completed}){
+function TodoCounter(){ 
+  const {
+    buyFood,
+    allFood,
+  } = React.useContext(ListContext);
+
   return (
       <><h1 className='Title green'> Shopping List</h1>
             <h2 className='Title marron'>
-                    {completed === total
+                    {buyFood === allFood
                     ? 'Congratulation you have shop all' 
-                    :   <>You have shopped for <span>{completed} </span>out of <span>{total}</span> groceries.
+                    :   <>You have shopped for <span>{buyFood} </span>out of <span>{allFood}</span> groceries.
                     </>
                     }
             </h2>
