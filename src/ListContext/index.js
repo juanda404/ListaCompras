@@ -11,7 +11,7 @@ function ListProvider({children}){
         error,
         } = useLocalStorage('FOOD_V1',[] );
 const [searchValue, setSearchValue] = React.useState('');
-const [openModal, setOpenModal] = React.useState(true);
+const [openModal, setOpenModal] = React.useState(false);
 
 const buyFood = shoppingList.filter(
 shop => !!shop.completed)
