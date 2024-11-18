@@ -25,6 +25,15 @@ return  shopText.includes(searchText);
 } 
 );
 
+const addList = (text) =>{
+    const newList = [...shoppingList];
+    newList.push({
+        text,
+        completed: false,
+    });
+    saveFoods(newList);
+}
+
 const buyedFood = (text) => {
       const newList = [...shoppingList];
       const newIndex =newList.findIndex(
@@ -52,6 +61,7 @@ saveFoods(newList);
                 searchValue,
                 setSearchValue,
                 searchedFoods,
+                addList,
                 buyedFood,
                 deleteFood,
                 openModal, 

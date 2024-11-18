@@ -6,6 +6,7 @@ import { TodosLoading } from '../TodosLoading';
 import { TodosError } from '../TodosError';
 import { EmptyTodos } from '../EmptyTodos';
 import { CreateTodoButton } from '../CreateTodoButton';
+import { ListForm } from '../ListForm';
 import { ListContext } from '../ListContext';
 import React from 'react';
 import { Modal } from '../Modal';
@@ -50,7 +51,7 @@ function AppUI(){
 
           {openModal && (
               <Modal>
-                    la funcionalidad de agregar todos
+                    <ListForm />
               </Modal>
           )}
         </>
