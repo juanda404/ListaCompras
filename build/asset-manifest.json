@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/home/juanito/Documents/Cursos%20para%20FRONTEND-NOV-04-2024/curso-react-intro/build/static/css/main.4571c21a.css",
+    "main.js": "/home/juanito/Documents/Cursos%20para%20FRONTEND-NOV-04-2024/curso-react-intro/build/static/js/main.29b473d6.js",
+    "index.html": "/home/juanito/Documents/Cursos%20para%20FRONTEND-NOV-04-2024/curso-react-intro/build/index.html",
+    "main.4571c21a.css.map": "/home/juanito/Documents/Cursos%20para%20FRONTEND-NOV-04-2024/curso-react-intro/build/static/css/main.4571c21a.css.map",
+    "main.29b473d6.js.map": "/home/juanito/Documents/Cursos%20para%20FRONTEND-NOV-04-2024/curso-react-intro/build/static/js/main.29b473d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4571c21a.css",
+    "static/js/main.29b473d6.js"
+  ]
+}

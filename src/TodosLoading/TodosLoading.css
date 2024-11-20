@@ -1,0 +1,28 @@
+/* Estilo de la barra de carga */
+.loading-bar {
+    width: 100%;  
+    height: 10px;  
+    background-color: #f3f3f3; 
+    border-radius: 5px; 
+    overflow: hidden;    /* Esconde los bordes si el progreso excede */
+    margin: 20px auto;   /* Centra horizontalmente */
+  }
+  
+  /* Progreso dentro de la barra */
+  .loading-progress {
+    width: 0%;             /* Inicia vacío */
+    height: 100%;     
+    background-color: #4caf50; /* Color del progreso (verde) */
+    animation: loading 2s infinite; /* Animación */
+    border-radius: 5px;    /* Redondea los bordes internos */
+  }
+  
+  /* Animación */
+  @keyframes loading {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
